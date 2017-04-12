@@ -1,0 +1,103 @@
+
+*****************
+MANUAL TEST CASES
+*****************
+
+
+
+Test Search Bar
+
+•	Check if the search box is present
+•	Check if the page offers default focus at search box or not.
+•	Find items by typing product name in the search box (Valid inputs)
+•	Check if typing multiple product names produces valid output
+•	Check the response time for searching items
+•	Check if the search box presents auto suggestion when the query is being typed
+•	Check if the search box offer typo corrections for the search query
+•	Does the search box allow searching with incorrect spellings
+•	Check if the search box allows (positive/negative)numbers or special characters as input (Invalid inputs)
+•	Check if the search box produces results based on letters entered
+•	Check if the search result offers product sorting as per alphabetical order
+
+
+
+
+Test Add Page (+) Button
+
+•	Check if the Add Page button is present/enabled
+•	Check if clicking the Add Page button opens up a new page
+•	Check if clicking on the Add Page button creates a new page by name “New Page”
+•	Validate adding multiple pages creates a new page each time with the name “New Page”
+•	Check if clicking on the Add Page button moves focus to the new page.
+•	Validate clicking on the Add Page button creates a new section offering product sorting as per alphabetical order
+•	Check if holding the Add Page button opens up a new page
+
+
+
+
+Test Delete Page (-) Button
+
+•	Check if the Delete Page button is present
+•	Validate clicking on the Delete Page button prompts a ‘Button Page Confirmation’ popup
+•	Check if clicking the Delete Page button prompts a popup window that lets the user ‘Confirm’ deleting the current page
+•	Check if clicking the Delete Page button prompts a popup window that lets the user ‘Cancel’ deleting the current page
+•	Check if deleting a page moves focus to the previous page.
+•	Validate that deleting a page returns all the items from it’s corresponding placement field to the items list.
+•	Validate that deleting a page returns all the items from it’s corresponding placement field to the items list in the order it was placed in the placement field.
+•	Check if the user is able to delete a page if there is only one page present
+•	Check if holding the Delete Page button prompts a popup to confirm deletion of the current page
+
+
+
+
+Test Name Page Field
+
+•	Check if the Name Page field is present
+•	Check if the Name Page field offers default focus or not.
+•	Rename the current page (using letters) to “Bakery”
+•	Rename the current page (using numbers) to “123”
+•	Rename the current page (using special characters) to “$™*”
+•	Validate that the page name saves automatically once the user clicks outside the Name Page field
+•	Validate that the page name does not save if the user clicks on the items list
+
+
+
+
+Test Page Tabs
+
+•	Validate that the page tabs are clickable/enabled
+•	Click and drag the first tab to the right, switching position with the second tab
+•	Click and drag the second tab to the left, switching position to with the first tab
+•	Click and drag the first tab to the right, switching position with the third tab
+•	Click and drag the third tab to the left, switching position to with the first tab
+•	Validate clicking on the right arrow key switches to the tab on the right
+•	Validate clicking on the left arrow key switches to the tab on the left
+
+
+
+
+Test Button Customization
+
+•	Validate that the gear in the corner of a placed button is clickable/enabled
+•	Check if after clicking on the gear button, all the color buttons are clickable
+•	Change the color of a placed button to yellow
+•	Relabel the placed Coffee button to “Black Coffee”
+•	Validate that a relabeled button name appears only on the placement field not on the Backoffice list
+
+
+
+
+Test Items List/Placement Field
+
+•	Drag and Drop first item from the list to the placement field
+•	Drag and Drop item from the placement field back into the list
+•	Drag an item and drop it onto a Page Tab to check if it falls under that specific Page
+•   Drag and drop all items from the list into a placement field
+•   Try to drag and drop items outside the list and placement field
+•   Switch items within the list
+
+
+
+
+
+

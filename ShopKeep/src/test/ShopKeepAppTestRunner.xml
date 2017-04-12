@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Functional Tests" parallel="methods" thread-count="1" allow-return-values="true">
+
+    <parameter name="userName" value="Abrasham_94"/>
+    <parameter name="os" value="Mac"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="50"/>
+    <parameter name="url" value="https://test-ac-1.shopkeepapp.com/ipad-layout"/>
+
+
+    <test name = "iPadLayout Tests">
+        <classes>
+            <class name="IPadLayoutTest.TestSearchField.TestIPadLayoutSearchField"/>
+            <class name="IPadLayoutTest.TestAddPageButton.TestIPadLayoutAddPageBtn"/>
+            <class name="IPadLayoutTest.TestDeletePageButton.TestIPadLayoutDeletePageBtn"/>
+            <class name="IPadLayoutTest.TestPageNameField.TestIPadLayoutPageNameField"/>
+            <class name="IPadLayoutTest.TestPageTabs.TestIPadLayoutPageTabs"/>
+            <class name="IPadLayoutTest.TestPlacementField.TestIPadLayoutPlacementField"/>
+            <class name="IPadLayoutTest.TestButtonCustomizationGear.TestIPadButtonCustomizationGear"/>
+            <class name="IPadLayoutTest.TestEndToEnd.IPadLayoutEndToEndTest"/>
+        </classes>
+    </test>
+</suite>
+
+
+
